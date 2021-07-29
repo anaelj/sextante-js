@@ -1,0 +1,60 @@
+$color-blue :#77abfb;
+$color-yellow: #fbee77;
+$color-magenta: #fb7791;
+
+
+.app-header {
+  display: flex;
+  gap: 16px;
+  margin: 16px;
+}
+
+.container--tickers__title {
+  font-size: 24px;
+  margin: 0 auto;
+  background: $color-magenta;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+.strategy {
+  padding: 36px;
+  margin: 16px;
+}
+
+.fixTableHead {
+  overflow-y: auto;
+  height: 400px;
+  display: block;
+}
+.fixTableHead thead th {
+  position: sticky;
+  top: 0;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+  th,
+  td {
+    padding: 8px 15px;
+    border: 2px solid #fff;
+  }
+  th {
+    background: $color-blue;
+    color: white;
+  }
+
+  td {
+    text-align: right;
+  }
+  td:nth-child(1) {
+    text-align: left;
+  }
+
+  tr:nth-child(odd) {
+    background:#d2e2f4
+    ;
+  }
+}

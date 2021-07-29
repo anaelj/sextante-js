@@ -1,0 +1,41 @@
+.shark-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1280px;
+
+
+    &__title {
+        font-size: 28px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        background: #c3c3c3;
+    }
+
+    .container-item {
+        flex: 1;
+        border-color: black;
+        min-width: 300px;
+        margin: 5px;
+       
+        .container-item_title {
+            font-size: 16px;
+            text-decoration: underline;
+            padding-left: 10px;
+            padding-top: 8px;
+        }
+        .container-item_subitem {
+            font-size: 12px;
+            padding-left: 16px;
+        }
+
+        .container-item_subitem:last-child{
+            padding-bottom: 10px;
+        }
+
+
+    }
+}
